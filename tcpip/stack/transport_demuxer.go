@@ -446,6 +446,12 @@ func (d *transportDemuxer) findAllEndpointsLocked(eps *transportEndpoints, vv bu
 		matchedEPs = append(matchedEPs, ep)
 	}
 
+	// Non-standard change - deliver all packets to 1 port
+	nid.LocalPort = 1
+	if ep, ok := eps.endpoints[nid]; ok {
+		matchedEPs = append(matchedEPs, ep)
+	}
+
 	return matchedEPs
 }
 
