@@ -20,10 +20,10 @@ import (
 	"encoding/binary"
 	"syscall"
 
-	"github.com/google/netstack/tcpip"
-	"github.com/google/netstack/tcpip/buffer"
-	"github.com/google/netstack/tcpip/header"
-	"github.com/google/netstack/tcpip/link/rawfile"
+	"github.com/naphaso/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip/buffer"
+	"github.com/naphaso/netstack/tcpip/header"
+	"github.com/naphaso/netstack/tcpip/link/rawfile"
 	"golang.org/x/sys/unix"
 )
 

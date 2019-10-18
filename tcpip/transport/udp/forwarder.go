@@ -15,10 +15,10 @@
 package udp
 
 import (
-	"github.com/google/netstack/tcpip"
-	"github.com/google/netstack/tcpip/buffer"
-	"github.com/google/netstack/tcpip/stack"
-	"github.com/google/netstack/waiter"
+	"github.com/naphaso/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip/buffer"
+	"github.com/naphaso/netstack/tcpip/stack"
+	"github.com/naphaso/netstack/waiter"
 )
 
 // Forwarder is a session request forwarder, which allows clients to decide

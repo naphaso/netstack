@@ -18,11 +18,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/netstack/tcpip"
-	"github.com/google/netstack/tcpip/buffer"
-	"github.com/google/netstack/tcpip/header"
-	"github.com/google/netstack/tcpip/stack"
-	"github.com/google/netstack/tcpip/transport/icmp"
+	"github.com/naphaso/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip/buffer"
+	"github.com/naphaso/netstack/tcpip/header"
+	"github.com/naphaso/netstack/tcpip/stack"
+	"github.com/naphaso/netstack/tcpip/transport/icmp"
 )
 
 // setupStackAndEndpoint creates a stack with a single NIC with a link-local

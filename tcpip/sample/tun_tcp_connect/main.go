@@ -50,17 +50,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/google/netstack/tcpip"
-	"github.com/google/netstack/tcpip/buffer"
-	"github.com/google/netstack/tcpip/header"
-	"github.com/google/netstack/tcpip/link/fdbased"
-	"github.com/google/netstack/tcpip/link/rawfile"
-	"github.com/google/netstack/tcpip/link/sniffer"
-	"github.com/google/netstack/tcpip/link/tun"
-	"github.com/google/netstack/tcpip/network/ipv4"
-	"github.com/google/netstack/tcpip/stack"
-	"github.com/google/netstack/tcpip/transport/tcp"
-	"github.com/google/netstack/waiter"
+	"github.com/naphaso/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip/buffer"
+	"github.com/naphaso/netstack/tcpip/header"
+	"github.com/naphaso/netstack/tcpip/link/fdbased"
+	"github.com/naphaso/netstack/tcpip/link/rawfile"
+	"github.com/naphaso/netstack/tcpip/link/sniffer"
+	"github.com/naphaso/netstack/tcpip/link/tun"
+	"github.com/naphaso/netstack/tcpip/network/ipv4"
+	"github.com/naphaso/netstack/tcpip/stack"
+	"github.com/naphaso/netstack/tcpip/transport/tcp"
+	"github.com/naphaso/netstack/waiter"
 )
 
 // writer reads from standard input and writes to the endpoint until standard

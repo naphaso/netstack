@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/google/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip"
 )
 
 // TestNDPNeighborSolicit tests the functions of NDPNeighborSolicit.

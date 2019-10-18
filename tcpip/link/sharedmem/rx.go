@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/google/netstack/tcpip/link/rawfile"
-	"github.com/google/netstack/tcpip/link/sharedmem/queue"
+	"github.com/naphaso/netstack/tcpip/link/rawfile"
+	"github.com/naphaso/netstack/tcpip/link/sharedmem/queue"
 )
 
 // rx holds all state associated with an rx queue.

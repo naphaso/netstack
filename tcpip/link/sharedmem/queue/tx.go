@@ -17,7 +17,7 @@ package queue
 import (
 	"encoding/binary"
 
-	"github.com/google/netstack/tcpip/link/sharedmem/pipe"
+	"github.com/naphaso/netstack/tcpip/link/sharedmem/pipe"
 	"log"
 )
 

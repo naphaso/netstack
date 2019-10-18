@@ -19,10 +19,10 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/google/netstack/tcpip"
-	"github.com/google/netstack/tcpip/buffer"
-	"github.com/google/netstack/tcpip/hash/jenkins"
-	"github.com/google/netstack/tcpip/header"
+	"github.com/naphaso/netstack/tcpip"
+	"github.com/naphaso/netstack/tcpip/buffer"
+	"github.com/naphaso/netstack/tcpip/hash/jenkins"
+	"github.com/naphaso/netstack/tcpip/header"
 )
 
 type protocolIDs struct {
